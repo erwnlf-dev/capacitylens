@@ -1,0 +1,63 @@
+[
+  {
+    "path": "src/lib/types.ts",
+    "purpose": "TypeScript interfaces for all entities and state shapes",
+    "dependencies": []
+  },
+  {
+    "path": "src/lib/store.tsx",
+    "purpose": "React Context + useReducer global state: CRUD, seed data, localStorage sync, toast",
+    "dependencies": [
+      "src/lib/types.ts"
+    ]
+  },
+  {
+    "path": "src/lib/utils.ts",
+    "purpose": "Utilities: formatDate, formatNumber, classNames, generateId, exportJSON, importJSON",
+    "dependencies": []
+  },
+  {
+    "path": "src/app/layout.tsx",
+    "purpose": "Root layout: Inter font, dark theme, metadata",
+    "dependencies": []
+  },
+  {
+    "path": "src/app/globals.css",
+    "purpose": "Tailwind directives + CSS custom properties + animations",
+    "dependencies": []
+  },
+  {
+    "path": "src/app/page.tsx",
+    "purpose": "Landing page: hero, features 6+, pricing 3 tiers, FAQ 6+, social proof, CTA, footer",
+    "dependencies": []
+  },
+  {
+    "path": "src/app/dashboard/layout.tsx",
+    "purpose": "Dashboard layout: sidebar nav + topbar + StoreProvider wrapper",
+    "dependencies": [
+      "src/lib/store.tsx"
+    ]
+  },
+  {
+    "path": "src/app/dashboard/page.tsx",
+    "purpose": "Dashboard home: computed stat cards, charts from real data, activity feed",
+    "dependencies": [
+      "src/lib/store.tsx"
+    ]
+  },
+  {
+    "path": "src/app/dashboard/entities/page.tsx",
+    "purpose": "Entity CRUD: data table, create/edit/delete modals, search, sort, filter, bulk",
+    "dependencies": [
+      "src/lib/store.tsx",
+      "src/lib/types.ts"
+    ]
+  },
+  {
+    "path": "src/app/dashboard/settings/page.tsx",
+    "purpose": "Settings: profile form, notification toggles, data export/import/reset",
+    "dependencies": [
+      "src/lib/store.tsx"
+    ]
+  }
+]

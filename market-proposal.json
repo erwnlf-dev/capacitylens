@@ -1,0 +1,53 @@
+{
+  "product_name": "CapacityLens",
+  "category": "capacity",
+  "feasibility_score": 8.2,
+  "target_market": {
+    "niches": [
+      "SMB on-premises hybrid cloud Indonesia",
+      "Regulated financial services with local compliance"
+    ],
+    "personas": [
+      "IT Manager at 200-500 employee manufacturing company",
+      "DevOps Lead at Indonesian fintech startup"
+    ]
+  },
+  "features": {
+    "must_have": [
+      "Indonesian language UI",
+      "Basic resource forecasting",
+      "Automated alerts",
+      "AWS/GCP/Azure integration",
+      "CSV data import"
+    ],
+    "should_have": [
+      "Jira integration",
+      "WhatsApp alerting",
+      "Predictive scaling recommendations"
+    ]
+  },
+  "competitors": [
+    {
+      "name": "Datadog",
+      "url": "https://datadog.com",
+      "price_model": "Usage-based"
+    },
+    {
+      "name": "ManageEngine OpManager",
+      "url": "https://manageengine.com",
+      "price_model": "Per-device licensing"
+    },
+    {
+      "name": "SolarWinds Observability",
+      "url": "https://solarwinds.com",
+      "price_model": "Tiered subscription"
+    }
+  ],
+  "integrations": [
+    "Slack",
+    "Teams",
+    "Jira",
+    "PagerDuty",
+    "WhatsApp Business API"
+  ]
+}
